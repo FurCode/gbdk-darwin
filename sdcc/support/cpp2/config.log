@@ -1,0 +1,309 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:686: checking for gcc
+configure:799: checking whether the C compiler (gcc  ) works
+configure:815: gcc -o conftest    conftest.c  1>&5
+configure:812:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(){return(0);}
+^~~~
+1 warning generated.
+configure:841: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:846: checking whether we are using GNU C
+configure:874: checking whether gcc accepts -g
+configure:907: checking whether gcc and cc understand -c and -o together
+configure:922: gcc -c conftest.c -o conftest.o 1>&5
+conftest.c:1:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+foo(){}
+^~~
+conftest.c:1:7: warning: control reaches end of non-void function [-Wreturn-type]
+foo(){}
+      ^
+2 warnings generated.
+configure:923: gcc -c conftest.c -o conftest.o 1>&5
+conftest.c:1:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+foo(){}
+^~~
+conftest.c:1:7: warning: control reaches end of non-void function [-Wreturn-type]
+foo(){}
+      ^
+2 warnings generated.
+configure:928: cc -c conftest.c 1>&5
+conftest.c:1:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+foo(){}
+^~~
+conftest.c:1:7: warning: control reaches end of non-void function [-Wreturn-type]
+foo(){}
+      ^
+2 warnings generated.
+configure:930: cc -c conftest.c -o conftest.o 1>&5
+conftest.c:1:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+foo(){}
+^~~
+conftest.c:1:7: warning: control reaches end of non-void function [-Wreturn-type]
+foo(){}
+      ^
+2 warnings generated.
+configure:931: cc -c conftest.c -o conftest.o 1>&5
+conftest.c:1:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+foo(){}
+^~~
+conftest.c:1:7: warning: control reaches end of non-void function [-Wreturn-type]
+foo(){}
+      ^
+2 warnings generated.
+configure:967: checking how to run the C preprocessor
+configure:1047: checking for inline
+configure:1061: gcc -c -g -O2  conftest.c 1>&5
+configure:1057:10: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+} inline foo() {
+  ~~~~~~ ^
+1 warning generated.
+configure:1089: checking size of short
+configure:1105: gcc -c -g -O2  conftest.c 1>&5
+configure:1101:25: error: duplicate case value '0'
+switch (0) case 0: case (sizeof (short) == 4):;
+                        ^
+configure:1101:17: note: previous case defined here
+switch (0) case 0: case (sizeof (short) == 4):;
+                ^
+1 error generated.
+configure: failed program was:
+#line 1095 "configure"
+#include "confdefs.h"
+#include "confdefs.h"
+#include <sys/types.h>
+
+
+int main() {
+switch (0) case 0: case (sizeof (short) == 4):;
+; return 0; }
+configure:1105: gcc -c -g -O2  conftest.c 1>&5
+configure:1101:25: error: duplicate case value '0'
+switch (0) case 0: case (sizeof (short) == 8):;
+                        ^
+configure:1101:17: note: previous case defined here
+switch (0) case 0: case (sizeof (short) == 8):;
+                ^
+1 error generated.
+configure: failed program was:
+#line 1095 "configure"
+#include "confdefs.h"
+#include "confdefs.h"
+#include <sys/types.h>
+
+
+int main() {
+switch (0) case 0: case (sizeof (short) == 8):;
+; return 0; }
+configure:1105: gcc -c -g -O2  conftest.c 1>&5
+configure:1101:25: error: duplicate case value '0'
+switch (0) case 0: case (sizeof (short) == 1):;
+                        ^
+configure:1101:17: note: previous case defined here
+switch (0) case 0: case (sizeof (short) == 1):;
+                ^
+1 error generated.
+configure: failed program was:
+#line 1095 "configure"
+#include "confdefs.h"
+#include "confdefs.h"
+#include <sys/types.h>
+
+
+int main() {
+switch (0) case 0: case (sizeof (short) == 1):;
+; return 0; }
+configure:1105: gcc -c -g -O2  conftest.c 1>&5
+configure:1128: checking size of int
+configure:1144: gcc -c -g -O2  conftest.c 1>&5
+configure:1167: checking size of long
+configure:1183: gcc -c -g -O2  conftest.c 1>&5
+configure:1179:25: error: duplicate case value '0'
+switch (0) case 0: case (sizeof (long) == 4):;
+                        ^
+configure:1179:17: note: previous case defined here
+switch (0) case 0: case (sizeof (long) == 4):;
+                ^
+1 error generated.
+configure: failed program was:
+#line 1173 "configure"
+#include "confdefs.h"
+#include "confdefs.h"
+#include <sys/types.h>
+
+
+int main() {
+switch (0) case 0: case (sizeof (long) == 4):;
+; return 0; }
+configure:1183: gcc -c -g -O2  conftest.c 1>&5
+configure:1207: checking execution character set
+configure:1268: checking whether make sets ${MAKE}
+configure:1296: checking whether a default assembler was specified
+configure:1308: checking whether a default linker was specified
+configure:1320: checking for GNU C library
+configure:1335: gcc -c -g -O2  conftest.c 1>&5
+configure:1326:10: fatal error: 'features.h' file not found
+#include <features.h>
+         ^
+1 error generated.
+configure: failed program was:
+#line 1325 "configure"
+#include "confdefs.h"
+#include <features.h>
+int main() {
+
+#if ! (defined __GLIBC__ || defined __GNU_LIBRARY__)
+#error Not a GNU C library system
+#endif
+; return 0; }
+configure:1357: checking whether ln works
+configure:1389: checking whether ln -s works
+configure:1423: checking for ranlib
+configure:1480: checking for a BSD compatible install
+configure:1531: checking for ANSI C header files
+configure:1635: checking whether time.h and sys/time.h may both be included
+configure:1649: gcc -c -g -O2  conftest.c 1>&5
+configure:1670: checking whether string.h and strings.h may both be included
+configure:1683: gcc -c -g -O2  conftest.c 1>&5
+configure:1704: checking for sys/wait.h that is POSIX.1 compatible
+configure:1725: gcc -c -g -O2  conftest.c 1>&5
+configure:1752: checking for limits.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1752: checking for stddef.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1752: checking for string.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1752: checking for strings.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1752: checking for stdlib.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1752: checking for time.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1752: checking for fcntl.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1752: checking for unistd.h
+configure:1752: checking for sys/file.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1752: checking for sys/time.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1752: checking for sys/resource.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1752: checking for sys/param.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1752: checking for sys/times.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1752: checking for sys/stat.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1752: checking for direct.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1758:10: fatal error: 'direct.h' file not found
+#include <direct.h>
+         ^
+1 error generated.
+configure: failed program was:
+#line 1757 "configure"
+#include "confdefs.h"
+#include <direct.h>
+configure:1752: checking for malloc.h
+configure:1752: checking for langinfo.h
+configure:1762: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1793: checking for CHAR_BIT
+configure:1866: checking byte ordering
+configure:1900: gcc -c -g -O2  conftest.c 1>&5
+configure:1943: checking for mktemp
+configure:1974: checking for strip
+configure:2007: checking for preprocessor stringizing operator
+configure:2045: checking for inttypes.h
+configure:2058: gcc -c -g -O2  conftest.c 1>&5
+configure:2082: checking for times
+configure:2110: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2082: checking for clock
+configure:2110: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2082: checking for strchr
+configure:2082: checking for strrchr
+configure:2110: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2094:6: warning: incompatible redeclaration of library function 'strrchr' [-Wincompatible-library-redeclaration]
+char strrchr();
+     ^
+configure:2094:6: note: 'strrchr' is a builtin with type 'char *(const char *, int)'
+1 warning generated.
+configure:2082: checking for lstat
+configure:2110: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2136: checking for ssize_t
+configure:2172: checking for getpagesize
+configure:2200: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2471: checking for working mmap from /dev/zero
+configure:2491: gcc -o conftest -g -O2   conftest.c  1>&5
+In file included from configure:2488:
+./ct-mmap.inc:97:5: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
+    perror_exit("test 0 mmap", 2);
+    ^
+./ct-mmap.inc:59:21: note: expanded from macro 'perror_exit'
+  do { perror(str); exit(val); } while (0)
+                    ^
+./ct-mmap.inc:97:5: note: please include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+./ct-mmap.inc:59:21: note: expanded from macro 'perror_exit'
+  do { perror(str); exit(val); } while (0)
+                    ^
+./ct-mmap.inc:228:8: warning: implicit declaration of function 'getpagesize' is invalid in C99 [-Wimplicit-function-declaration]
+  pg = getpagesize ();
+       ^
+2 warnings generated.
+configure: failed program was:
+#line 2487 "configure"
+#include "confdefs.h"
+#include "ct-mmap.inc"
+configure:2518: checking for working mmap with MAP_ANON(YMOUS)
+configure:2533: gcc -o conftest -g -O2   conftest.c  1>&5
+In file included from configure:2530:
+./ct-mmap.inc:97:5: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
+    perror_exit("test 0 mmap", 2);
+    ^
+./ct-mmap.inc:59:21: note: expanded from macro 'perror_exit'
+  do { perror(str); exit(val); } while (0)
+                    ^
+./ct-mmap.inc:97:5: note: please include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+./ct-mmap.inc:59:21: note: expanded from macro 'perror_exit'
+  do { perror(str); exit(val); } while (0)
+                    ^
+./ct-mmap.inc:228:8: warning: implicit declaration of function 'getpagesize' is invalid in C99 [-Wimplicit-function-declaration]
+  pg = getpagesize ();
+       ^
+2 warnings generated.
+configure:2561: checking for working mmap of a file
+configure:2613: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2594:5: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
+    exit(1);
+    ^
+configure:2594:5: note: please include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 warning generated.
+configure:2644: checking whether getenv is declared
+configure:2663: gcc -c -g -O2 -I. -I./../include  conftest.c 1>&5
+configure:2644: checking whether abort is declared
+configure:2663: gcc -c -g -O2 -I. -I./../include  conftest.c 1>&5
+configure:2644: checking whether errno is declared
+configure:2663: gcc -c -g -O2 -I. -I./../include  conftest.c 1>&5
+configure:2644: checking whether malloc is declared
+configure:2663: gcc -c -g -O2 -I. -I./../include  conftest.c 1>&5
+configure:2644: checking whether realloc is declared
+configure:2663: gcc -c -g -O2 -I. -I./../include  conftest.c 1>&5
+configure:2644: checking whether calloc is declared
+configure:2663: gcc -c -g -O2 -I. -I./../include  conftest.c 1>&5
+configure:2644: checking whether free is declared
+configure:2663: gcc -c -g -O2 -I. -I./../include  conftest.c 1>&5
+configure:2644: checking whether getopt is declared
+configure:2663: gcc -c -g -O2 -I. -I./../include  conftest.c 1>&5
+configure:2644: checking whether clock is declared
+configure:2663: gcc -c -g -O2 -I. -I./../include  conftest.c 1>&5
+configure:2724: checking whether times is declared
+configure:2747: gcc -c -g -O2 -I. -I./../include  conftest.c 1>&5
+configure:2781: checking for struct tms
+configure:2800: gcc -c -g -O2 -I. -I./../include  conftest.c 1>&5
+configure:2823: checking for clock_t
+configure:2839: gcc -c -g -O2 -I. -I./../include  conftest.c 1>&5
+configure:2864: checking if mkdir takes one argument
+configure:2886: gcc -c -g -O2  conftest.c 1>&5
+configure:3051: checking what assembler to use
+configure:3136: checking what nm to use
+configure:3147: checking whether to enable maintainer-specific portions of Makefiles
